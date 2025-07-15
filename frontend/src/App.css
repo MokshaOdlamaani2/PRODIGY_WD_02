@@ -1,0 +1,45 @@
+/* ------------ Global Reset & Background ------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2e2e2e;
+   background: linear-gradient(to right, #8bd2e0c0, #9db4a3e8);
+
+/* ------------ App Layout ------------ */
+.app-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+   background: linear-gradient(to right, #8bd2e0c0, #9db4a3e8);
+
+
+}
+
+/* Push content below fixed navbar */
+.page-content {
+  padding-top: 80px; /* navbar height */
+  min-height: calc(60vh - 40px); 
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+   background: linear-gradient(to right, #8bd2e0c0, #9db4a3e8);
+
+}
+
+.page-box {
+  width: 100%;
+  max-width: 1500px;
+  padding: 10px;
+  margin: 0 auto;   
+   background: linear-gradient(to right, #8bd2e0c0, #9db4a3e8);
+
+
+
+}
