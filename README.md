@@ -6,7 +6,7 @@ Here’s a professional and concise **project description** you can add to your 
 
 " Features"
 
-* ✅ **Admin & HR Login** with role-based access control
+* ✅ **Admin Login** with access control
 * 👥 **Add, View, Edit, Delete** employees
 * 🔍 **Search & Filter** by department and name
 * 📊 Dashboard with key employee metrics
